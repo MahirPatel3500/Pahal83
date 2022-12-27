@@ -1,0 +1,143 @@
+
+
+
+.header{
+   
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+}
+.menu{
+    
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.footer{
+   
+    display: flex;
+    justify-content: space-evenly;
+    }
+   
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.grid{
+    display: flex;
+    justify-content: flex-start;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+     justify-content: space-evenly;
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width :498%;
+    margin :0;
+    left:0;
+    animation: 20s slider infinite ;
+}
+#slider figure img{
+float: left ;
+width:20% ;
+}
+@keyframes slider{
+    0% {
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100% ;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+    120%{
+        left:400%;
+    }
+    125%{
+        left:500%;
+    }
+}
+.items1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: x-large;
+}
+.item2{
+    display: flex;
+    justify-content: center;
+}
+
+.item3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+h3{
+    color: rgb(70, 23, 4);
+}
+
+.item6{
+    display: flex;
+    justify-content: center;
+}.item8{
+    display: flex;
+    justify-content: center;
+}
+a:hover{
+    color: brown;
+}
+
+.footer h2{
+    position: absolute;
+    top: 185%;
+   
+    
+    opacity:0.3;
+}
+.footer:hover h2{
+  
+  opacity:1;
+}
+
+.item9{
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 100px;
+}
+.footer{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.item12{
+    display: flex;
+   
+}
